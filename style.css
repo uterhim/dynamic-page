@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    font-size: 18px;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+img {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+#courses {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.courses {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+
+    .courses {
+        flex-direction: column;
+    }
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logo {
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f4f4f4;
+}
+
+.btn {
+    background: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
